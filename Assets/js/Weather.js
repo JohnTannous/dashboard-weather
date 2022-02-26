@@ -140,7 +140,7 @@ const display5Day = function(weather){
       
      
      let forecastEl=document.createElement("div");
-     forecastEl.classList = "card bg-primary text-light m-2";
+     forecastEl.classList = "card bg-danger text-dark m-2";
 
      let forecastDate = document.createElement("h5")
      forecastDate.textContent= moment.unix(dailyForecast.dt).format("MMM D, YYYY");

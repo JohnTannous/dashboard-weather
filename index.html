@@ -11,14 +11,14 @@
     </head>
     <body>
         <!-- Header with title banner -->
-        <header class = "bg-info text-white text-center p-2">
+        <header class = " bg-danger text-white text-center p-2 ">
             <h1>Weather Dashboard</h1>
         </header>
 
         <!-- Search nav bar -->
         <main class="container-fluid">
             <div class = "row">
-                <nav class="col-12 col-md-3 p-2 search-column">
+                <nav class="col-12 col-md-3 p-2 search-column ">
                     <form class="form-inline" id = "city-submit">
                         <h4>Search for a City</h2>
                         <input id="city" type = "text" autofocus="true" class="form-control mr-sm-2 form-input" type="search" placeholder="Search for a City" aria-label="Search">
@@ -26,16 +26,16 @@
                     </form>
                     <div class = "past-search border" id = "past-search-buttons"></div>
                 </nav>
-                <section class="col-12 col-md-9">
+                <section class="col-12 col-md-9 bg-danger">
                     <div class = "row border selected-city" id = "current-forecast">
-                        <div class = "col-12">
+                        <div class = "col-12 pb-3 pt-3">
                             <h2 id="searched-city"></h2>
                             <div id = "current-weather-container" class = "list-group"></div>
                         </div>  
                     </div>
-                    <div class = "row border" id = "five-day-forecast">
+                    <div class = "row border pb-3 pt-3 bg-light" id = "five-day-forecast">
                             <h2 class= "col-12" id = "forecast"></h2>
-                            <div class = "d-flex" id = "fiveday-container"></div>
+                            <div class = "d-flex " id = "fiveday-container"></div>
                     </div>  
                 </section>
             </div>
